@@ -1,6 +1,11 @@
 module.exports = {
     theme: {
-        purge: ['./*.html'],
+        purge: [
+            
+            './*.html'
+        
+        ],
+
         extend: {
             minHeight: {
                 500: "500px",
